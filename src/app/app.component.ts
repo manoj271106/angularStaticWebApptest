@@ -3,8 +3,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>{{message}}</div>
-  <div>Hello World from Angular</div>`,
+  template: `
+  <h1>Testing new application </h1>
+  <div>{{message}}</div>`
 })
 export class AppComponent {
   message = '';
