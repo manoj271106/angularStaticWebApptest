@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>{{message}}</div>`,
+  template: `<div>{{message}}</div>
+  <div>Hello World from Angular</div>`,
 })
 export class AppComponent {
   message = '';
