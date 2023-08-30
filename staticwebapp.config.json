@@ -1,5 +1,29 @@
 {
     "navigationFallback": {
         "rewrite": "/index.html"
+    },
+
+  "auth": {
+    "identityProviders": {
+      "customOpenIdConnectProviders": {
+        "aadb2c": {
+          "registration": {
+            "clientIdSettingName": "AADB2C_PROVIDER_CLIENT_ID",
+            "clientCredential": {
+              "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
+            },
+            "openIdConnectConfiguration": {
+              "wellKnownOpenIdConfiguration": "https://DrivesAzureb2c.b2clogin.com/DrivesAzureb2c.onmicrosoft.com/B2C_1A_B2C_IOP_SIGNIN/v2.0/.well-known/openid-configuration"
+            }
+          },
+          "login": {
+            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+            "scopes": [],
+            "loginParameterNames": []
+          }
+        }
+      }
     }
+  }
+
 }
