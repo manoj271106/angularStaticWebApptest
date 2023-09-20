@@ -4,7 +4,7 @@
     },
     {
       "route": "/login",
-      "rewrite": "/.auth/login/aad",
+      "rewrite": "/.auth/login/IOP",
       "allowedRoles": ["anonymous", "authenticated"]
     },
 
