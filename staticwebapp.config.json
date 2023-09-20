@@ -8,9 +8,9 @@
       "customOpenIdConnectProviders": {
         "IOP": {
           "registration": {
-            "clientIdSettingName": "AADB2C_PROVIDER_CLIENT_ID",
+            "clientIdSettingName": "2ce6cf18-3563-47db-869c-c6939c394cd1",
             "clientCredential": {
-              "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
+              "clientSecretSettingName": "R9K1iW1Xt6"
             },
             "openIdConnectConfiguration": {
               "wellKnownOpenIdConfiguration": "https://ohid.verify.ohio.gov/oidc/endpoint/default/.well-known/openid-configuration"
