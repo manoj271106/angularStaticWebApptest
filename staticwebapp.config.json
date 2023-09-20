@@ -1,16 +1,11 @@
-{
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    },
-
-  "auth": {
+"auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
         "IOP": {
           "registration": {
-            "clientIdSettingName": "2ce6cf18-3563-47db-869c-c6939c394cd1",
+            "clientIdSettingName": "AADB2C_PROVIDER_CLIENT_ID",
             "clientCredential": {
-              "clientSecretSettingName": "R9K1iW1Xt6"
+              "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
             },
             "openIdConnectConfiguration": {
               "wellKnownOpenIdConfiguration": "https://ohid.verify.ohio.gov/oidc/endpoint/default/.well-known/openid-configuration"
@@ -18,11 +13,9 @@
           },
           "login": {
             "nameClaimType": "emails",
-            "scopes": ["openid", "profile"]
+            "scopes": ["openid","profile", "email","phone"]
           }
         }
       }
     }
   }
-
-}
