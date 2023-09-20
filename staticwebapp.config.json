@@ -1,4 +1,9 @@
-"auth": {
+{
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+
+  "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
         "IOP": {
@@ -12,10 +17,12 @@
             }
           },
           "login": {
-            "nameClaimType": "emails",
-            "scopes": ["openid","profile", "email","phone"]
+            "nameClaimType": "name",
+            "scopes": ["openid", "profile","email"]
           }
         }
       }
     }
   }
+
+}
