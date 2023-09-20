@@ -2,6 +2,11 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     },
+    {
+      "route": "/login",
+      "rewrite": "/.auth/login/aad",
+      "allowedRoles": ["anonymous", "authenticated"]
+    },
 
   "auth": {
     "identityProviders": {
